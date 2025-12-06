@@ -1,0 +1,27 @@
+This is an example certificate
+
+
+QYRON-PROFILE-V1
+-----------------------------
+profile:
+  id: "office-eu-1"
+  name: "Wyrex PQVPN - Europe 1"
+  version: 1
+
+connection:
+  ip: "185.90.12.11"
+  port: 5555
+  protocol: "PQ-UDP"
+
+certificate:
+  format: "QYRON-KYBER-CERT-V1"
+  encoding: "base64"
+  data: |
+    WQ0KQ1lST04tS1lCRVItQ0VSVF9WMQ0Kc3ViamVjdD0iV3lyZXggUFFWUE4gTm9kZSAxIg0Kb3JnPSJXeXJleCINCmtleV90eXBlPSJLWUJFUjEwMjQiDQpw
+    dWJsaWNfa2V5PUJBU0U2NE5PU0VfREFUQQ0Kbm90X2JlZm9yZT0iMjAyNS0wMS0wMSINCm5vdF9hZnRlcj0iMjAyNy0wMS0wMSINCnNpZ25hdHVyZT1CQVNF
+    NjRTSUdORURfREFUQQ==
+
+metadata:
+  created_at: "2025-12-04T20:17:00Z"
+  issuer: "QYRON VPN Control Panel"
+-----------------------------
