@@ -20,43 +20,43 @@ int main()
 
         if (redisServerResult.find("Failed listening on port"))
         {
-            std::cout << redisServerResult << "\n";
+            std::cout << redisServerResult << "asd \n";
         }
         else
         {
             HiRedisClient *redis = new HiRedisClient("127.0.0.1", 6379);
-        }
 
-        Logger::Write(redisServerResult, Logger::magenta + Logger::bold);
+            Logger::Write(redisServerResult, Logger::magenta + Logger::bold);
 
-        int choise;
+            int choise;
 
-        std::string logo =
-            "══════════════════════════════════════════════════\n"
-            "   ▄▄▄▄   ▄▄▄    ▄▄▄ ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄ \n"
-            "  ██▀▀██   ██▄  ▄██  ██▀▀▀▀██   ██▀▀██   ███   ██ \n"
-            " ██    ██   ██▄▄██   ██    ██  ██    ██  ██▀█  ██ \n"
-            " ██    ██    ▀██▀    ███████   ██    ██  ██ ██ ██ \n"
-            "  ██▄▄██▀     ██     ██  ▀██▄  ██    ██  ██  █▄██ \n"
-            "   ▀▀▀██      ██     ██    ██   ██▄▄██   ██   ███ \n"
-            "       ▀      ▀▀     ▀▀    ▀▀▀   ▀▀▀▀    ▀▀   ▀▀▀ \n"
-            "──────────────────────────────────────────────────\n";
+            std::string logo =
+                "══════════════════════════════════════════════════\n"
+                "   ▄▄▄▄   ▄▄▄    ▄▄▄ ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄ \n"
+                "  ██▀▀██   ██▄  ▄██  ██▀▀▀▀██   ██▀▀██   ███   ██ \n"
+                " ██    ██   ██▄▄██   ██    ██  ██    ██  ██▀█  ██ \n"
+                " ██    ██    ▀██▀    ███████   ██    ██  ██ ██ ██ \n"
+                "  ██▄▄██▀     ██     ██  ▀██▄  ██    ██  ██  █▄██ \n"
+                "   ▀▀▀██      ██     ██    ██   ██▄▄██   ██   ███ \n"
+                "       ▀      ▀▀     ▀▀    ▀▀▀   ▀▀▀▀    ▀▀   ▀▀▀ \n"
+                "──────────────────────────────────────────────────\n";
 
-        Logger::Write(logo, Logger::magenta + Logger::bold);
+            Logger::Write(logo, Logger::magenta + Logger::bold);
 
-        Logger::Write("╔══════════════════════ MENU ════════════════════╗", Logger::magenta + Logger::bold, true);
-        Logger::Write("║                                                ║", Logger::magenta + Logger::bold, true);
-        Logger::Write("║ " + (Logger::cyan + Logger::bold) + "1- View VPN Clients" + Logger::reset + "                            " + (Logger::magenta + Logger::bold) + "║", Logger::magenta + Logger::bold, true);
-        Logger::Write("║ " + (Logger::cyan + Logger::bold) + "2- Create an Client" + Logger::reset + "                            " + (Logger::magenta + Logger::bold) + "║", Logger::magenta + Logger::bold, true);
-        Logger::Write("║ " + (Logger::cyan + Logger::bold) + "3- Delete an Client" + Logger::reset + "                            " + (Logger::magenta + Logger::bold) + "║", Logger::magenta + Logger::bold, true);
-        Logger::Write("║                                                ║", Logger::magenta + Logger::bold, true);
-        Logger::Write("╚════════════════════════════════════════════════╝", Logger::magenta + Logger::bold, true);
-        Logger::Write("Please Enter Your Choice: ", Logger::blue, false);
+            Logger::Write("╔══════════════════════ MENU ════════════════════╗", Logger::magenta + Logger::bold, true);
+            Logger::Write("║                                                ║", Logger::magenta + Logger::bold, true);
+            Logger::Write("║ " + (Logger::cyan + Logger::bold) + "1- View VPN Clients" + Logger::reset + "                            " + (Logger::magenta + Logger::bold) + "║", Logger::magenta + Logger::bold, true);
+            Logger::Write("║ " + (Logger::cyan + Logger::bold) + "2- Create an Client" + Logger::reset + "                            " + (Logger::magenta + Logger::bold) + "║", Logger::magenta + Logger::bold, true);
+            Logger::Write("║ " + (Logger::cyan + Logger::bold) + "3- Delete an Client" + Logger::reset + "                            " + (Logger::magenta + Logger::bold) + "║", Logger::magenta + Logger::bold, true);
+            Logger::Write("║                                                ║", Logger::magenta + Logger::bold, true);
+            Logger::Write("╚════════════════════════════════════════════════╝", Logger::magenta + Logger::bold, true);
+            Logger::Write("Please Enter Your Choice: ", Logger::blue, false);
 
-        std::cin >> choise;
+            std::cin >> choise;
 
-        while (true)
-        {
+            while (true)
+            {
+            }
         }
     }
 
