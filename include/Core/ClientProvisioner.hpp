@@ -3,7 +3,7 @@
 #include <iostream>
 #include <fstream>
 
-#include "Cassandra/Scylla.hpp"
+#include "Utils/Logger.hpp"
 
 class ClientProvisioner
 {
@@ -17,5 +17,4 @@ public:
     void generateCert();
 
 private:
-    Scylla *scylla;
 };

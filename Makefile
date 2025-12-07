@@ -1,7 +1,7 @@
 TARGET   := Qyron
 CXX      := g++
 CXXFLAGS := -std=c++20 -O2 -Wall -Wextra -Iinclude 
-LDFLAGS  := -lscylla-cpp-driver -luv -lssl -lcrypto -lpthread
+LDFLAGS  := -lscylla-cpp-driver -luv -lssl -lcrypto -lpthread -lhiredis
 
 SRC_DIR  := src
 OBJ_DIR  := build/obj
